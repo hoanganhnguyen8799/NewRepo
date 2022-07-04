@@ -33,7 +33,8 @@ public class NewAPI extends HttpServlet{
 		System.out.println(p);
 		ObjectMapper objectMapper = new ObjectMapper();
 		objectMapper.writeValue(resp.getOutputStream(), p);
-		System.out.println("Hello");
+
+		System.out.println("Hello");System.out.println("Hello");
 		System.out.println("Hello");
 	}
 }
