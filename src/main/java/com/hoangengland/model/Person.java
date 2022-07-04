@@ -38,6 +38,7 @@ public class Person implements Serializable{
 	}
 	@Override
 	public String toString() {
+		System.out.println("Hello person: ");
 		return "Person [age=" + age + ", name=" + name + ", phone=" + phone + "]";
 	}
 	
